@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repeat_int"
+version = "0.1.0"
+description = "A library to repeat functions an integer number of times"
+readme = "README.md"
+requires-python = ">=3.7"
