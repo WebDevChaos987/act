@@ -8,3 +8,20 @@ def firstRepeat():
   print("I am using repeat")
 
 action.repeat(firstRepeat, 3)
+
+4. For waiting (in brackets type int):
+
+action.wait()
+
+4. For clearing:
+
+action.clear()
+
+4. text color (edit, color. See colors in dict)
+
+print(action.color("Red", "red"))
+
+4. Background color (you do NOT have to make it a variable (see colors based on dict)):
+
+alert = action.background(action.color(" CRITICAL ERROR ", "yellow"), "red")
+print(alert)
