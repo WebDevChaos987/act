@@ -2,7 +2,7 @@ import sys
 from .wait import wait
 from .color import color
 
-def progress_bar(duration=10, bar_color="green"):
+def pb(duration=10, bar_color="green"):
     """
     Displays an animated text-based progress bar that grows over time.
     """
